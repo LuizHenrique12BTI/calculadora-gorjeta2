@@ -30,8 +30,8 @@ function receiveTipPercentage(value) {
     buttonSelected.classList.add("button-selected")
     tipPercentage = value / 100
 
-    let customTipInput = document.querySelector ("#custom-tip")
-    customTipInput.value = ""
+    let customTipInput = document.querySelector("#custom-tip")
+    customTipInput.value = "" 
 
     calculate()
 }
@@ -61,4 +61,8 @@ function calculate() {
     } else {
         console.log("ainda não é possível calcular")
     }
+}
+
+function reset() {
+    
 }
